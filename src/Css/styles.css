@@ -1,0 +1,297 @@
+@import './default.css';
+
+.gitLabIcon {
+    color: #E2432A;
+    font-size: 25px;
+
+}
+
+.linkedInIcon {
+    color: #0e76a8;
+    font-size: 25px;
+
+}
+
+.whatsAppIcon {
+    color: #25d366;
+    font-size: 25px;
+
+}
+
+.navActive {
+    color: #0e76a8;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .075);
+}
+
+.smallText {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    display: block;
+
+}
+
+.userImage {
+    width: 50px;
+}
+
+.userSec {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.shadowMy {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .075);
+}
+
+.para_text {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--secondary-color)
+}
+
+
+.bigHead_text {
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--primary-color)
+}
+
+.bgBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 24px);
+    padding-top: 80px;
+}
+
+
+.navActive {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: block;
+}
+
+
+
+.toggleIcon {
+    font-size: 25px;
+}
+
+.rotateCircle {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center-circle {
+
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0px -12px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../Images/resumeimage.jpg');
+
+
+}
+
+
+.outer-circles {
+    width: 350px;
+    height: 350px;
+
+    animation: rotateCenterCircle 10s linear infinite;
+    position: absolute;
+    top: 0;
+
+    border: 1px solid rgba(20, 19, 20, 0.3);
+    border-radius: 50%;
+}
+
+
+
+.outer-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+/* Define the animations */
+@keyframes rotateCenterCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateOuterCircles {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.logos {
+    font-size: 29px;
+
+
+}
+
+.outer-circle:nth-child(1)>.logos {
+    color: rgb(97, 219, 251);
+
+
+}
+
+.outer-circle:nth-child(2)>.logos {
+    color: #00a7e5;
+
+}
+
+.outer-circle:nth-child(3)>.logos {
+    color: #563d7c;
+
+
+}
+
+.outer-circle:nth-child(4)>.logos {
+    color: #78cff5;
+}
+
+.outer-circle:nth-child(5)>.logos {
+    color: #F0DB4F;
+
+}
+
+.outer-circle:nth-child(6)>.logos {
+    color: #264de4;
+
+}
+
+.outer-circle:nth-child(7)>.logos {
+    color: #e34c26;
+
+}
+
+.outer-circle:nth-child(8)>.logos {
+    color: #E2432A;
+
+}
+
+
+.outer-circle:nth-child(1) {
+    top: 0;
+    left: 15%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(2) {
+    top: 86%;
+    left: 67%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(3) {
+    top: 8%;
+    left: 80%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(4) {
+    top: 70%;
+    left: 6px;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(5) {
+    top: 37%;
+    left: 13%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(6) {
+    top: 12%;
+    left: 47%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(7) {
+    top: 48%;
+    left: 75%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.outer-circle:nth-child(8) {
+    top: 74%;
+    left: 34%;
+    animation: rotateOuterCircles 10s linear infinite;
+}
+
+.circleuserImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.secondCircle {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    animation: rotateCenterCircle 10s linear infinite;
+    border: 1px solid rgba(20, 19, 20, 0.3);
+}
+
+.Button {
+    background-color: var(--primary-color);
+    height: 42px;
+    width: 124px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    border: none;
+    border-radius: 34px;
+    box-shadow: 0 16px 24px 3px rgba(251, 164, 40, .42);
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 26px;
+}
+
+.glassIcon {
+    width: 50px;
+}
+
+.mobileShadow {
+    padding: 15px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .075);
+}

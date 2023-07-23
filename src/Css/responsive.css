@@ -1,0 +1,89 @@
+@media screen and (max-width:768px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: -100%;
+
+        background: #ffff;
+        height: 100vh;
+        transition: left 0.6s linear;
+    }
+
+    .navigation.show__menu {
+        left: 0;
+    }
+
+    .userSec {
+        padding: 7px;
+    }
+
+    .userImage {
+        width: 43px;
+    }
+
+    .menu {
+        padding: 15px;
+    }
+
+    .bgBanner {
+        height: auto;
+        padding-top: 102px;
+    }
+
+    .bigHead_text {
+        font-size: 33px;
+    }
+
+    .para_text {
+        font-size: 17px;
+    }
+
+    .Button {
+        height: 37px;
+        width: 108px;
+        font-size: 14px;
+    }
+
+    .rotateCircle {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+
+    .outer-circles {
+        width: 230px;
+        height: 230px;
+        top: 36px;
+        left: 35px;
+        transform: none;
+    }
+
+    .logos {
+        font-size: 22px;
+    }
+
+    .outer-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .secondCircle {
+        width: 145px;
+        height: 146px;
+    }
+
+    .center-circle {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:991px) {
+    .bgBanner {
+        height: auto;
+        padding-top: 108px;
+    }
+
+}
